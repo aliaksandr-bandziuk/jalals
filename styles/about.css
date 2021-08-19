@@ -1,0 +1,122 @@
+/* удаляю стрелки из инпута для всех браузеров */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+/* .about__background {
+  position: absolute;
+  width: 1670.58px;
+  height: 1533.86px;
+  left: 751.01px;
+  top: 837px;
+
+  background: linear-gradient(136.55deg, rgba(248, 212, 229, 0.38) 12.85%, rgba(248, 173, 255, 0.55) 46.6%, #F8D4E5 81.85%);
+  opacity: 0.45;
+  filter: blur(400px);
+} */
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 171px;
+}
+
+.about__text {
+  flex-basis: 70%;
+  margin-right: 65px;
+}
+
+.about__title {
+  font-family: 'Monument Extended', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  color: #131313;
+  margin-bottom: 25px;
+}
+
+.about__description {
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #131313;
+  margin-bottom: 45px;
+}
+
+.cost {
+  font-family: 'Monument Extended', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+
+.about__pricing_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__images {
+  display: flex;
+  flex-basis: 60%;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.about__image {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.input__number {
+  width: 80px;
+  height: 70px;
+  border: 1px solid rgba(19, 19, 19, 0.25);
+  box-sizing: border-box;
+  font-family: Neue Machina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+  color: #131313;
+}
+
+.about__pricing-btn {
+  width: 210px;
+  height: 70px;
+  background: #0038FF;
+  border: none;
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.left {
+  font-family: Neue Machina;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #131313;
+
+}

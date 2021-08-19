@@ -1,0 +1,104 @@
+.background {
+  width: 90%;
+  height: 1926px;
+  left: -3px;
+  top: -1277px;
+  position: absolute;
+  background: linear-gradient(180deg, #E0D1FF 0%, rgba(255, 233, 255, 0.2) 43.58%, rgba(255, 209, 231, 0) 83.03%);
+  filter: blur(100px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: -2;
+}
+
+.header {
+  /* position: relative; */
+  margin-top: 20px;
+  align-items: center;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__buttons {
+  display: flex;
+}
+
+.logo {
+  margin-right: 45px;
+}
+
+.logo__title {
+  font-family: 'Monument Extended', serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #131313;
+}
+
+.logo__title_bold {
+  font-weight: bold;
+}
+
+.nav {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav__item {
+  font-family: 'Neue Machina', sans-serif;
+  font-size: 15px;
+  line-height: 28px;
+  margin-right: 10px;
+  color: rgba(19, 19, 19, 0.7);
+}
+
+.nav__item_active {
+  margin-top: 7px;
+  margin-left: 7px;
+  margin-bottom: 7px;
+  padding: 3px 10px;
+  /* border: solid 1px #EFEFEF; */
+  border-radius: 10px;
+  background: #EFEFEF;
+  font-weight: bold;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+}
+
+.social-list__item {
+  margin-right: 25px;
+  list-style: none;
+}
+
+.social-list__item:hover {
+  cursor: pointer;
+}
+
+.connect-btn {
+  font-family: 'Neue Machina', sans-serif;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #0038FF;
+  padding: 10px 20px;
+  background: rgba(0, 56, 255, 0.05);
+  border-radius: 10px;
+  border: none;
+}

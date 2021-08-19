@@ -1,0 +1,64 @@
+.first-section {
+  margin-top: 282px;
+}
+
+.first-section__headline {
+  font-family: 'Monument Extended', serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 64px;
+  color: #131313;
+
+}
+
+.first-section__subheadline {
+  font-family: 'Monument Extended', serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 40px;
+  margin-bottom: 45px;
+  color: #131313;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.first-section__btn {
+  width: 210px;
+  height: 70px;
+  margin-bottom: 180px;
+  background: #0038FF;
+  border: none;
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.ticker {
+  margin-bottom: 150px;
+}
+
+.ticker__text {
+  font-family: 'Neue Machina', sans-serif;
+  /* color: transparent; */
+  /* -webkit-text-stroke: 1px white;
+  text-stroke: 1px white; */
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 77px;
+  text-shadow: 1px 1px #0038FF, 1px 1px #0038FF, 1px 1px #0038FF, 0 -1px #0038FF;
+}
