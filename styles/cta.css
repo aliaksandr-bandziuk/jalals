@@ -1,0 +1,79 @@
+.cta {
+  margin-bottom: 150px;
+}
+
+.background-image {
+  background-image: url(/img/cta/background.png);
+  background-size: cover;
+}
+
+.cta__title {
+  padding-top: 216px;
+  font-family: 'Monument Extended', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px; 
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.cta__description {
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+}
+
+.cta__btn {
+  width: 250px;
+  height: 70px;
+  background: #0038FF;
+  border: none;
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 215px;
+}
+
+@media(max-width: 1200px) {
+  .cta__title {
+    padding-top: 150px;
+  }
+  .cta__btn {
+    margin-bottom: 150px;
+  }
+}
+
+@media(max-width: 991px) {
+  .cta {
+    margin-bottom: 90px;
+  }
+  .cta__title {
+    font-size: 25px;
+  }
+  .cta__description {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+/* @media(max-width: 769px) {
+  
+}
+
+@media(max-width: 661px) {
+  
+} */

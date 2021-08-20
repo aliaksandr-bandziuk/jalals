@@ -1,0 +1,125 @@
+.footer {
+  background: #131313;
+  color: #fff;
+}
+
+.footer__main {
+  padding-top: 40px;
+}
+
+.footer__main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 115px;
+}
+
+.footer__menu {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 30%;
+  align-items: center;
+}
+
+.footer__logo {
+  font-family: Monument Extended;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.footer__logo-bold {
+  font-weight: 900;
+}
+
+.footer__nav {
+  display: flex;
+}
+
+.footer__nav-item {
+  list-style: none;
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.footer__nav-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.footer__button:not(:first-child) {
+  margin-left: 25px;
+}
+
+.footer__data {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.copyright__text {
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.output__link {
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.output__link:last-child {
+  margin-left: 32px;
+}
+
+.output__link:hover {
+  text-decoration: underline;
+}
+
+@media(max-width: 1200px) {
+
+}
+
+@media(max-width: 991px) {
+  .footer__menu {
+    align-items: flex-start;
+  }
+  .footer__nav {
+    display: block;
+  }
+  .footer__buttons {
+    align-items: flex-start;
+  }
+}
+
+@media(max-width: 769px) {
+  .footer__data {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .output {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .output__link:last-child {
+    margin-left: 0;
+  }
+}
+
+/* @media(max-width: 661px) {
+  
+} */

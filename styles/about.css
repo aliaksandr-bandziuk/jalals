@@ -11,18 +11,6 @@ input[type="number"]:focus {
     -moz-appearance: textfield;
 }
 
-/* .about__background {
-  position: absolute;
-  width: 1670.58px;
-  height: 1533.86px;
-  left: 751.01px;
-  top: 837px;
-
-  background: linear-gradient(136.55deg, rgba(248, 212, 229, 0.38) 12.85%, rgba(248, 173, 255, 0.55) 46.6%, #F8D4E5 81.85%);
-  opacity: 0.45;
-  filter: blur(400px);
-} */
-
 .about__wrapper {
   display: flex;
   justify-content: space-between;
@@ -112,11 +100,120 @@ input[type="number"]:focus {
 }
 
 .left {
-  font-family: Neue Machina;
+  font-family: 'Neue Machina', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   color: #131313;
+}
 
+.about__ticker {
+  margin-bottom: 150px;
+}
+
+.about__ticker-text {
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+@media(max-width: 1200px) {
+  .about__wrapper {
+    margin-bottom: 100px;
+  }
+  .about__text {
+    margin-right: 50px;
+  }
+  .about__title {
+    font-size: 25px;
+    line-height: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .about__description {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  .about__pricing_wrapper {
+    justify-content: flex-start;
+  }
+  .input__number {
+    width: 50px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 18px;
+    margin-right: 10px;
+  }
+  
+  .about__pricing-btn {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 10px;
+  }
+  
+  .left {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .cost {
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .about__image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media(max-width: 991px) {
+  .about__images {
+    display: none;
+  }
+  .about__ticker {
+    margin-bottom: 100px;
+  }
+  .about__ticker-text {
+    font-size: 25px;
+  }
+}
+
+@media(max-width: 769px) {
+  .about__text {
+    margin-left: auto;
+    margin-right: auto; /* можно попробовать убрать */
+  }
+  .about__ticker {
+    display: none;
+  }
+  .hr-solid {
+    margin-bottom: 60px;
+  }
+}
+
+@media(max-width: 661px) {
+  .about__pricing_wrapper {
+    display: block;
+  }
+  .input__number {
+    width: 120px;
+    margin-bottom: 5px;
+  }
+  .about__pricing-btn {
+    width: 120px;
+  }
+  .left {
+    font-size: 13px;
+  }
 }

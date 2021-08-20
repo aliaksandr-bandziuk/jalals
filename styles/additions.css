@@ -1,0 +1,97 @@
+.additions__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.roadmap {
+  flex-basis: 40%;
+}
+
+.roadmap__title {
+  font-family: 'Monument Extended', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  color: #131313;
+  margin-bottom: 50px;
+}
+
+.roadmap__description {
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2C2C2C;
+}
+
+.faq {
+  flex-basis: 50%;
+}
+
+.faq__title {
+  font-family: 'Monument Extended', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  color: #131313;
+  margin-bottom: 50px;
+}
+
+.faq__bullets-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 28px; */
+}
+
+.faq__bullets-title {
+  font-family: 'Neue Machina', sans-serif;
+}
+
+.faq__hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 1px;
+  color: rgba(19, 19, 19, 0.15);
+  background: rgba(19, 19, 19, 0.15);
+  border: none;
+}
+
+/* @media(max-width: 1200px) {
+
+} */
+
+@media(max-width: 991px) {
+  .additions__wrapper {
+    display: block;
+    margin-bottom: 90px;
+  }
+  .roadmap__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .roadmap__description {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .faq__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .faq__hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 769px) {
+  
+}
+
+@media(max-width: 661px) {
+  
+}

@@ -102,3 +102,40 @@
   border-radius: 10px;
   border: none;
 }
+
+@media(max-width: 1200px) {
+
+  .logo {
+    margin-right: 30px;
+  }
+
+  .nav__item {
+    font-size: 16px;
+  }
+
+  .social-list__item {
+    margin-right: 15px;
+  }
+
+  .connect-btn {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+}
+
+@media(max-width: 991px) {
+
+  .social {
+    display: none;
+  }
+
+}
+
+@media(max-width: 769px) {
+
+}
+
+@media(max-width: 661px) {
+  
+}

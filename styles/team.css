@@ -1,0 +1,103 @@
+.team__wrapper {
+  margin-bottom: 150px;
+}
+
+.team__title {
+  font-family: 'Monument Extended', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #131313;
+  margin-bottom: 50px;
+}
+
+.team__heroes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__hero {
+  background: #FFFFFF;
+  border: 1px solid rgba(19, 19, 19, 0.15);
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 23%;
+}
+
+.team__heroteam__hero:not(:last-child) {
+  margin-right: 30px;
+}
+
+.hero__avatar {
+  display: flex; /* эта штука центрировала картинку внутри блока */
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.hero__name {
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+  color: #131313;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero__position {
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(19, 19, 19, 0.9);font-family: Neue Machina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(19, 19, 19, 0.9);
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+@media(max-width: 1200px) {
+  .hero__avatar {
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 991px) {
+  .team__wrapper {
+    margin-bottom: 100px;
+  }
+  .team__heroes {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .team__hero {
+    flex-basis: 48%;
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 769px) {
+  .team__wrapper {
+    margin-bottom: 70px;
+  }
+}
+
+@media(max-width: 661px) {
+  .team__hero {
+    flex-basis: 90%;
+  }
+}

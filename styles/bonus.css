@@ -1,0 +1,80 @@
+.bonus__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.bonus__title {
+  font-family: 'Monument Extended', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  color: #131313;
+  margin-bottom: 25px;
+}
+
+.bonus__description {
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #131313;
+  margin-bottom: 45px;
+}
+
+.bonus__img {
+  margin-left: 65px;
+  /* flex-basis: 60%; */
+}
+
+.hr-solid {
+  height: 1px;
+  color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 150px;
+}
+
+@media(max-width: 1200px) {
+  .bonus__title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .bonus__description {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .bonus__img-item {
+    width: 350px;
+    height: 350px;
+  }
+  .hr-solid {
+    margin-bottom: 100px;
+  }
+}
+
+@media(max-width: 991px) {
+  .bonus__wrapper {
+    margin-bottom: 90px;
+  }
+  .bonus__text {
+    flex-basis: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bonus__description {
+    width: 70%;
+  }
+  .bonus__img {
+    display: none;
+  }
+}
+
+@media(max-width: 769px) {
+  
+}
+
+@media(max-width: 661px) {
+  
+}
