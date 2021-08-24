@@ -11,7 +11,6 @@
 }
 
 .header {
-  /* position: relative; */
   margin-top: 20px;
   align-items: center;
 }
@@ -127,6 +126,9 @@
 @media(max-width: 991px) {
 
   .social {
+    display: none;
+  }
+  .header {
     display: none;
   }
 

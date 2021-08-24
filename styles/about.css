@@ -64,6 +64,7 @@ input[type="number"]:focus {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  margin-right: -5%; /* костыль для выравнивания картинок */
 }
 
 .about__image {

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/loader.css">
   <link rel="stylesheet" href="styles/first-section.css">
   <link rel="stylesheet" href="styles/about.css">
   <link rel="stylesheet" href="styles/bonus.css">
@@ -15,6 +16,7 @@
   <link rel="stylesheet" href="styles/cta.css">
   <link rel="stylesheet" href="styles/additions.css">
   <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/menu__burger.css">
 </head>
 <body>
 
@@ -27,7 +29,8 @@
         <div class="header__menu">
           <div class="logo">
             <p class="logo__title">
-              <span class="logo__title_bold">jalal</span>s</p>
+              <span class="logo__title_bold">jalal</span>s
+            </p>
           </div>
           <nav class="nav">
             <a href="" class="nav__item nav__item_active">mint</a>
@@ -63,30 +66,41 @@
   </header>
   <!-- header -->
 
+
   <section class="first-section">
-    <h1 class="first-section__headline">1st Section Headline</h1>
-    <p class="first-section__subheadline">1st Section Subheadline</p>
-    <div class="button-wrapper">
-      <form action="#">
-        <button class="first-section__btn">mint</button>
-      </form>
+      <div class="first-section__content">
+        <h1 class="first-section__headline">1st Section Headline</h1>
+        <p class="first-section__subheadline">1st Section Subheadline</p>
+        <div class="button-wrapper">
+          <form action="#">
+            <button class="first-section__btn">
+              mint
+              <div class="loader">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </button>
+          </form>
+      </div>
     </div>
-    <marquee class="first-section__ticker" behavior="" direction="">
-      <p class="first-section__ticker-text">
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </p>
-    </marquee>
   </section>
+
+  <marquee class="first-section__ticker" behavior="" direction="">
+    <p class="first-section__ticker-text">
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      JELALS NFT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+  </marquee>
 
   <section class="about">
     
@@ -304,5 +318,53 @@
     </div>
   </footer>
 
+  <!-- Мобильное меню вместе с бургером -->
+  <div class="mobile-menu">
+    <div class="mobile-menu__wrapper">
+      <div class="mobile-menu__logo">
+        <p class="logo__title">
+          <span class="logo__title_bold">jalal</span>s
+        </p>
+      </div>
+      <div class="mobile-menu__img mobile-menu__img-open">
+      </div>
+    </div>
+
+    <div class="mobile-menu__list mobile-menu__list-hidden">
+      <div class="header__wrapper-mobile">
+        <ul class="mobile-menu__items">
+          <li class="mobile-menu__item"><a href="#nft">nft</a></li>
+          <li class="mobile-menu__item"><a href="#bonusdrop">bonus drop</a></li>
+          <li class="mobile-menu__item"><a href="#team">team</a></li>
+          <li class="mobile-menu__item"><a href="#roadmap">roadmap</a></li>
+          <li class="mobile-menu__item"><a href="#faq">faq</a></li>
+        </ul>
+        <div class="header__buttons-mobile">
+          <div class="social-mobile">
+            <ul class="social-list-mobile">
+              <li class="social-list__item-mobile">
+                <img src="img/social/social1.svg" alt="">
+              </li>
+              <li class="social-list__item-mobile">
+                <img src="img/social/social2.svg" alt="">
+              </li>
+              <li class="social-list__item-mobile">
+                <img src="img/social/social3.svg" alt="">
+              </li>
+            </ul>
+          </div>
+          <form action="#">
+            <button class="connect-btn-mobile">
+              connect wallet
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- <button class="mobile-phone__button">+7 962 555-55-55</button> -->
+    </div>   
+  </div>
+
 </body>
+<script src="scripts/menu__burger.js"></script>
 </html>
