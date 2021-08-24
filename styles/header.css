@@ -13,6 +13,12 @@
 .header {
   margin-top: 20px;
   align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  transition: all 1.3s ease-in-out;
 }
 
 .header__wrapper {
@@ -100,6 +106,13 @@
   background: rgba(0, 56, 255, 0.05);
   border-radius: 10px;
   border: none;
+}
+
+/* добавляю фон при прокрутке хэдера */
+.header-active {
+  background-color: #f8f2ff;
+  transition: all 1s ease-in-out;
+  padding: 10px;
 }
 
 @media(max-width: 1200px) {

@@ -20,6 +20,54 @@
 </head>
 <body>
 
+  <!-- Мобильное меню вместе с бургером -->
+  <div class="mobile-menu">
+    <div class="mobile-menu__wrapper">
+      <div class="mobile-menu__logo">
+        <p class="logo__title">
+          <span class="logo__title_bold">jalal</span>s
+        </p>
+      </div>
+      <div class="mobile-menu__img mobile-menu__img-open">
+      </div>
+    </div>
+
+    <div class="mobile-menu__list mobile-menu__list-hidden">
+      <div class="header__wrapper-mobile">
+        <ul class="mobile-menu__items">
+          <li class="mobile-menu__item"><a href="#mint">mint</a></li>
+          <li class="mobile-menu__item"><a href="#about">about</a></li>
+          <li class="mobile-menu__item"><a href="#bonusdrop">bonus drop</a></li>
+          <li class="mobile-menu__item"><a href="#team">team</a></li>
+          <li class="mobile-menu__item"><a href="#cta">cta</a></li>
+          <li class="mobile-menu__item"><a href="#additions">additions</a></li>
+        </ul>
+        <div class="header__buttons-mobile">
+          <div class="social-mobile">
+            <ul class="social-list-mobile">
+              <li class="social-list__item-mobile">
+                <img src="img/social/social1.svg" alt="">
+              </li>
+              <li class="social-list__item-mobile">
+                <img src="img/social/social2.svg" alt="">
+              </li>
+              <li class="social-list__item-mobile">
+                <img src="img/social/social3.svg" alt="">
+              </li>
+            </ul>
+          </div>
+          <form action="#">
+            <button class="connect-btn-mobile">
+              connect wallet
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- <button class="mobile-phone__button">+7 962 555-55-55</button> -->
+    </div>   
+  </div>
+
   <div class="background"></div>
   <!-- Фон для хэдера и первого экрана -->
 
@@ -33,12 +81,12 @@
             </p>
           </div>
           <nav class="nav">
-            <a href="" class="nav__item nav__item_active">mint</a>
-            <a href="" class="nav__item">nft</a>
-            <a href="" class="nav__item">bonus drop</a>
-            <a href="" class="nav__item">team</a>
-            <a href="" class="nav__item">roadmap</a>
-            <a href="" class="nav__item">faq</a>
+            <a href="#mint" class="nav__item nav__item_active">mint</a>
+            <a href="#about" class="nav__item">about</a>
+            <a href="#bonusdrop" class="nav__item">bonus drop</a>
+            <a href="#team" class="nav__item">team</a>
+            <a href="#cta" class="nav__item">cta</a>
+            <a href="#additions" class="nav__item">additions</a>
           </nav>
         </div>
         <div class="header__buttons">
@@ -67,7 +115,7 @@
   <!-- header -->
 
 
-  <section class="first-section">
+  <section class="first-section" id="mint">
       <div class="first-section__content">
         <h1 class="first-section__headline">1st Section Headline</h1>
         <p class="first-section__subheadline">1st Section Subheadline</p>
@@ -102,7 +150,7 @@
     </p>
   </marquee>
 
-  <section class="about">
+  <section class="about" id="about">
     
     <div class="container">
       <div class="about__background"></div>
@@ -150,7 +198,7 @@
     </marquee>
   </section>
 
-  <section class="bonus">
+  <section class="bonus" id="bonusdrop">
     <div class="container">
       <div class="bonus__wrapper">
         <div class="bonus__text">
@@ -179,7 +227,7 @@
     <hr class="hr-solid">
   </section>
 
-  <section class="team">
+  <section class="team" id="team">
     <div class="container">
       <div class="team__wrapper">
         <h2 class="team__title">Team</h2>
@@ -209,7 +257,7 @@
     </div>
   </section>
 
-  <section class="cta">
+  <section class="cta" id="cta">
     <div class="background-image">
       <div class="container">
         <h2 class="cta__title">Big CTA headline</h2>
@@ -225,7 +273,7 @@
     </div>
   </section>
 
-  <section class="additions">
+  <section class="additions" id="additions">
     <div class="container">
       <div class="additions__wrapper">
         <div class="roadmap">
@@ -318,53 +366,9 @@
     </div>
   </footer>
 
-  <!-- Мобильное меню вместе с бургером -->
-  <div class="mobile-menu">
-    <div class="mobile-menu__wrapper">
-      <div class="mobile-menu__logo">
-        <p class="logo__title">
-          <span class="logo__title_bold">jalal</span>s
-        </p>
-      </div>
-      <div class="mobile-menu__img mobile-menu__img-open">
-      </div>
-    </div>
-
-    <div class="mobile-menu__list mobile-menu__list-hidden">
-      <div class="header__wrapper-mobile">
-        <ul class="mobile-menu__items">
-          <li class="mobile-menu__item"><a href="#nft">nft</a></li>
-          <li class="mobile-menu__item"><a href="#bonusdrop">bonus drop</a></li>
-          <li class="mobile-menu__item"><a href="#team">team</a></li>
-          <li class="mobile-menu__item"><a href="#roadmap">roadmap</a></li>
-          <li class="mobile-menu__item"><a href="#faq">faq</a></li>
-        </ul>
-        <div class="header__buttons-mobile">
-          <div class="social-mobile">
-            <ul class="social-list-mobile">
-              <li class="social-list__item-mobile">
-                <img src="img/social/social1.svg" alt="">
-              </li>
-              <li class="social-list__item-mobile">
-                <img src="img/social/social2.svg" alt="">
-              </li>
-              <li class="social-list__item-mobile">
-                <img src="img/social/social3.svg" alt="">
-              </li>
-            </ul>
-          </div>
-          <form action="#">
-            <button class="connect-btn-mobile">
-              connect wallet
-            </button>
-          </form>
-        </div>
-      </div>
-
-      <!-- <button class="mobile-phone__button">+7 962 555-55-55</button> -->
-    </div>   
-  </div>
+  
 
 </body>
 <script src="scripts/menu__burger.js"></script>
+<script src="scripts/addHeaderBackground.js"></script>
 </html>
