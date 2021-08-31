@@ -58,3 +58,9 @@
           -webkit-animation-delay: calc(var(--duration) / -6);
                   animation-delay: calc(var(--duration) / -6);
       }
+
+@media (max-width: 800px) {
+  .loader {
+    --size: 30rem;
+  }
+}
