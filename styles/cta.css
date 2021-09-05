@@ -3,7 +3,7 @@
 }
 
 .background-image {
-  background: url(/img/cta/background.png);
+  background: url(../img/cta/background.png);
   background-size: cover;
 }
 
